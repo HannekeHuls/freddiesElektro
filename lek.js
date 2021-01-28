@@ -2,14 +2,14 @@
  * display image
  */
 const showImage = function() {
-    var img = document.getElementById("Lamp");
+    var img = document.getElementById("lamp");
     img.style.visibility = "visible";
 };
 /**
  * hide image
  */
 const hideImage = function() {
-    var img = document.getElementById("Lamp");
+    var img = document.getElementById("lamp");
     img.style.visibility = "hidden";
 };
 
