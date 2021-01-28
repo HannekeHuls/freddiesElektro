@@ -1,0 +1,145 @@
+/* CSS Document */
+@charset "UTF-8";
+
+* {
+    padding:0;
+	}
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:12px; 
+	color:#f27252;
+    line-height:18px;
+    background-color:#f27252;
+	}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	max-height:500px;
+	background-color:#FFFFFF;
+	}
+
+div.headr {
+    height:100px;
+    background-color:#FFFFFF;
+}
+
+div.title{
+    color:#f27252;
+    width: 30%;
+    text-align:left;
+    margin-top:50px;
+    float:left;
+    font-size:20px;
+    padding-left: 10px; 
+}
+
+img  {
+    width: 100px;
+    height: 100px;;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 0;
+}
+
+img .showHide {
+    display: block;
+    z-index: 1;
+    z-index: 1;
+}
+
+#lamp {
+    height: 180;
+    width: 180;
+    z-index: 1;
+}
+
+#cat {
+    height: 180;
+    width: 180;
+    z-index: 1;
+}
+
+#txtColor{
+    color: white;
+    font-size: 18px;
+}
+
+div.inputSpace {
+    display: block;
+    float:left;
+    width: 30%;
+    height:81%;
+    margin-top:10px;
+    z-index: 0;
+}
+
+div.lampje{
+    display: block;
+    width: 40%;
+    height:81%;
+    margin-top:300px;
+    float: left;
+    z-index: 2;
+}
+
+div.outputSpace {
+    display: block;
+    float:left;
+    width:30%;
+    height:81%;
+    margin-top:10px;
+    z-index: 0;
+}
+
+@media screen and (min-width: 500px){
+    body {
+        font-size:16px; 
+        }
+
+    div.title{
+        font-size: 18px;
+        width: 65%;
+    }
+
+    div.hoe{
+        height:150px;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    div.hoe{
+        height:160px;
+    }
+    #lamp {
+        left: 300px;
+    }
+    #txtColor{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    body {
+        font-size:20px; 
+        }
+    div.title{
+        font-size: 24px;
+    }
+    #txtColor{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    div.title{
+        font-size: 28px;
+    }    
+    
+    #txtColor{
+        font-size: 28px;
+    }
+
+}
