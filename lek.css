@@ -3,13 +3,13 @@
 
 * {
     padding:0;
-	}
+}
 
 body {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size:12px; 
 	color:#f27252;
-    background-color:#f27252;
+    	background-color:#f27252;
 	}
 
 .container {
@@ -20,10 +20,9 @@ body {
 	}
 
 div.headr {
-    height:100px;
+    height:120px;
     background-color:#FFFFFF;
 	color:#f27252;
-	padding-top:5px;
 	padding-left:10px;	
 }
 
@@ -55,11 +54,6 @@ img .showHide {
     height: 180;
     width: 180;
     z-index: 1;
-}
-
-#txtColor{
-    color: white;
-    font-size: 18px;
 }
 
 div.inputSpace {
@@ -94,9 +88,8 @@ div.outputSpace {
         font-size:16px; 
         }
 
-    div.title{
+    .title{
         font-size: 18px;
-        width: 65%;
     }
 
     div.hoe{
