@@ -1,1 +1,54 @@
-hello world
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elektrospel</title>
+    <link rel="stylesheet" href="lek.css">
+    <script src="lek.js"></script>
+</head>
+<body>
+  <div class="headr">    
+    <div class="title">Freddy's elektro</div>
+    <div class="intro">
+        <p>Welk gereedschap gebruik je waarvoor?</p>  
+        <p>Als je het goed hebt, gaat er een lampje branden.</p>
+        <p>Geen lampje? Kies dan gereedschap en waarvoor BEIDE opnieuw.</p>
+    </div>
+  </div>
+    <div class="inputSpace">
+      <p id="txtColor">Gereedschap</p>
+      <form>
+          <img src="moersleutel.jpg" class="listOf" onClick="whenClicked(name)" name="1">
+          <img src="imbus.png" class="listOf" onClick="whenClicked(name)" name="2">
+          <img src="kettingzaag.png" class="listOf" onClick="whenClicked(name)"  name="3">
+          <img src="kruiskopschroevendraaier.png" class="listOf" onClick="whenClicked(name)"  name="4">
+          <img src="waterpomptang.png" class="listOf" onClick="whenClicked(name)"  name="5">
+          <img src="reciprozaag.png" class="listOf" onClick="whenClicked(name)"  name="6">
+          <img src="sokkentang.jpeg" class="listOf" onClick="whenClicked(name)"  name="7">
+          <img src="sleuf.png" class="listOf" onClick="whenClicked(name)"  name="8">
+          <img src="cirkelzaag.png" class="listOf" onClick="whenClicked(name)"  name="9">
+      </form>
+    </div>
+    <div class="lampje" >
+      <img class="showHide" id="lamp" src="Lampje.png" style="visibility: hidden"></img>
+      <img class="showHide" id="cat" src="congrat.gif" style="visibility: hidden"></img>
+    </div>
+    <div class="outputSpace">
+      <p id="txtColor">Waarvoor?</p>
+      <form>
+          <img src="bij_sokkentang.jpeg" class="listOf" onClick="compare(name)" name="a">
+          <img src="schroef_moersleutel.png" class="listOf" onClick="compare(name)" name="b">
+          <img src="doen_cirkelzaag.jpg" class="listOf" onClick="compare(name)" name="c">   
+          <img src="sleufschroef.png" class="listOf" onClick="compare(name)" name="d">
+          <img src="boom1.png" class="listOf" onClick="compare(name)" name="e">
+          <img src="bij-waterpomptang.png" class="listOf" onClick="compare(name)" name="f">
+          <img src="imbus_schroef.jpg" class="listOf" onClick="compare(name)" name="g">
+          <img src="kruis-schroef.jpg" class="listOf" onClick="compare(name)" name="h"> 
+          <img src="snoeien.jpg" class="listOf" onClick="compare(name)" name="i"> 
+      </form>
+    </div>
+      
+  </div>
+</body>
+</html>
