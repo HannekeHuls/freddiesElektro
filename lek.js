@@ -2,14 +2,14 @@
  * display image
  */
 const showImage = function() {
-    var img = document.getElementById("lamp");
+    var img = document.getElementById("Lamp");
     img.style.visibility = "visible";
 };
 /**
  * hide image
  */
 const hideImage = function() {
-    var img = document.getElementById("lamp");
+    var img = document.getElementById("Lamp");
     img.style.visibility = "hidden";
 };
 
@@ -26,7 +26,7 @@ const checkAnswer = function(){
             compList = [];
             count = count-1;
             showImage();
-            console.log(count);
+          
             if (count == 0){
                 hideImage();
                 var felicity = document.getElementById("cat");
