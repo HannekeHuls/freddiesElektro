@@ -23,16 +23,13 @@ body {
 div.headr {
     height:100px;
     background-color:#FFFFFF;
+	color:#f27252;
+	padding-top:5px;
+	padding-left:10px;	
 }
 
-div.title{
-    color:#f27252;
-    width: 30%;
-    text-align:left;
-    margin-top:50px;
-    float:left;
-    font-size:20px;
-    padding-left: 10px; 
+.title{   
+    font-size:20px;  
 }
 
 img  {
