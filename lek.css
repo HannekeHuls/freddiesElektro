@@ -20,7 +20,7 @@ body {
 	}
 
 div.headr {
-    height:200px;
+    height:100px;
     background-color:#FFFFFF;
 	color:#f27252;
 	padding-left:10px;	
@@ -31,7 +31,7 @@ div.headr {
 }
 
 img  {
-    width: 100px;
+    width: 110px;
     height: 100px;;
     display: block;
     margin-bottom: 10px;
