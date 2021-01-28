@@ -32,7 +32,9 @@ const checkAnswer = function(){
                 var felicity = document.getElementById("cat");
                 felicity.style.visibility = "visible";
             }
-        else compList = [];
+        else if (checkList[i][0] != a OR checkList[i][1] != b){
+            compList = [];
+        }
         }
 };
 
