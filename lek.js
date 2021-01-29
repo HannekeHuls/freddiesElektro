@@ -21,29 +21,29 @@ const checkAnswer = function(){
     let a = compList[0];
     let b = compList[1];
     
-    for (let i=0; i < checkList.length; i++)
+for (let i=0; i < checkList.length; i++){
         if (checkList[i][0] == a && checkList[i][1] == b){
+            console.log("match", compList);
             compList = [];
             count = count-1;
             showImage();
-          
+        }
+        else compList = [];  
+            console.log("empty");        
             if (count == 0){
                 hideImage();
                 var felicity = document.getElementById("cat");
                 felicity.style.visibility = "visible";
             }
-        else if (checkList[i][0] != a OR checkList[i][1] != b){
-            compList = [];
-        }
         }
 };
 
-const compare = function(x){        
-        compList.push(x);
+const compare = function(name){        
+        compList.push(name);
         checkAnswer();
     };
 
 const whenClicked = function(name){
-    compare(name);
+    compList.push(name);
     hideImage();
 };
